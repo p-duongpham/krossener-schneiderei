@@ -77,12 +77,12 @@ body {
   background-color: #151618;
 }
 
-.header_section .container-fluid {
+.header_section .header_section1 .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
 }
 
-.header_section .nav_container {
+.header_section .header_section1 .nav_container {
   margin: 0 auto;
 }
 
@@ -191,7 +191,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
-  background-image: url(../images/menu.png);
+  background-image: url(../images/menubrown.png);
   background-size: 55px;
 }
 
@@ -884,8 +884,36 @@ a {
 .impressum1 {
   color: white;
 }
-.table2 {
-  left: 10%;
+
+.table {
+  text-align: center;
 }
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible2 {
+  background-color: #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active2,
+.collapsible2:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content2 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
